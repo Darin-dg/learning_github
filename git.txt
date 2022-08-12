@@ -5,9 +5,16 @@ in a folder to back-up: git init
 to see progress: git status
 
 *to commit:
-1) stage files for comitting: git add 'filename"
-2) make commit: commit -m 'message written explaining the commit'
+1) stage files for comitting: 
+# add one file:
+    git add 'filename"
+# add everything in the folder
+    git add .
+2) make commit: 
+get commit -m 'message written explaining the commit'
 
 to get commit history: git log
 
-"more info"
+If:
+"Another git process seems..."
+delete index.lock
