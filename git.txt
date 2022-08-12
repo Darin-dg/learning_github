@@ -7,3 +7,7 @@ to see progress: git status
 *to commit:
 1) stage files for comitting: git add 'filename"
 2) make commit: commit -m 'message written explaining the commit'
+
+to get commit history: git log
+
+"more info"
