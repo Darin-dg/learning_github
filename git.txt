@@ -1,0 +1,9 @@
+How to use git:
+
+in a folder to back-up: git init
+
+to see progress: git status
+
+*to commit:
+1) stage files for comitting: git add 'filename"
+2) make commit: commit -m 'message written explaining the commit'
