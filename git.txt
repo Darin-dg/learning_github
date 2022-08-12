@@ -1,20 +1,27 @@
 How to use git:
 
-in a folder to back-up: git init
+in a folder to back-up (just the first time):
+    git init
 
-to see progress: git status
+to see progress: 
+    git status
 
 *to commit:
 1) stage files for comitting: 
 # add one file:
-    git add 'filename"
+    git add 'filename'
 # add everything in the folder
     git add .
 2) make commit: 
-get commit -m 'message written explaining the commit'
+    get commit -m 'message written explaining the commit'
 
-to get commit history: git log
+to view commit history:
+required for hashes
+    git log
 
 If:
 "Another git process seems..."
-delete index.lock
+delete index.lock (in Windows)
+
+*to go back to a version:
+    git checkout 'hash code'
