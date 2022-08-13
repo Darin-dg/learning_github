@@ -5,5 +5,8 @@ add remote:
     git remote add 'remote_name' 'link' 
 
 push to github:
-    git branch -M main
+    once: git branch -M main
     git push -u 'remote_name' main
+
+pull from github:
+    git pull origin main

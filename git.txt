@@ -13,7 +13,7 @@ to see progress:
 # add everything in the folder
     git add .
 2) make commit: 
-    get commit -m 'message written explaining the commit'
+    git commit -m 'message written explaining the commit'
 
 to view commit history:
 required for hashes
@@ -35,6 +35,7 @@ delete index.lock (in Windows)
 
 * to make a new branch:
     git branch 'branchname'
+    git checkout -b 'branchname'
 
 * to add a branch to master:
     git merge 'branchname'
