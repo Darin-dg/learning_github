@@ -6,7 +6,18 @@ add remote:
 
 push to github:
     once: git branch -M main
-    git push -u 'remote_name' main
+    then whenever: git push -u 'remote_name' main
+    or to a branch: git push -u 'remote_name' 'branch_name'
 
 pull from github:
     git pull origin main
+
+copy another repository:
+    in a NEW directory: git clone 'clone url'
+
+to request working on someone else's open source work:
+    fork it
+    clone it
+    edit the fork
+    create pull request to upload fork (commonly as a branch)
+    (can practice with spoon-knife)

@@ -26,15 +26,14 @@ delete index.lock (in Windows)
 *to go back to a version:
     git checkout 'hash code'
 
-*to go back to master branch or a named branch:
-    git checkout master
+*to go back to main branch or a named branch:
+    git checkout main
     git checkout 'branchname'
 
 *to see which branch you're on:
     git branch
 
 * to make a new branch:
-    git branch 'branchname'
     git checkout -b 'branchname'
 
 * to add a branch to master:
