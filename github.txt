@@ -1,0 +1,9 @@
+list remotes:
+    git remote -v
+
+add remote:
+    git remote add 'remote_name' 'link' 
+
+push to github:
+    git branch -M main
+    git push -u 'remote_name' main
