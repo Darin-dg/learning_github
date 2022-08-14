@@ -17,11 +17,11 @@ console.log(soliloquy.charAt(0));      // T
 console.log(soliloquy.charAt(1));      // o
 console.log(soliloquy.charAt(2));      //   
 console.log(soliloquy.charAt(3));      // b
-console.log(soliloquy[3]);      // could also just treat strings like arrays
+console.log(soliloquy[3]);      // could also just treat a string like an array in this case
 
 console.log()
 
 let N = soliloquy.length
-for (let i = 0; i < N; i++){
+for (let i = 0; i < N; i++) {
     console.log(soliloquy[i])
 }
